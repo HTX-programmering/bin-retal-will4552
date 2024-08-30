@@ -1,0 +1,18 @@
+Digital data har to mulige værdier (0 og 1), i modsætning til analog data, som kan have mange forskellige værdier.
+
+I det binære talsystem er cifrets placering afgørende for tallets værdi, ligesom i det decimale system, men her bruges grundtallet 2 i stedet for 10. 
+For eksempel er det binære tal 1010 lig med 10 i decimalsystemet, da det svarer til 8 + 2.
+
+En byte består af 8 bits, og hver bit kan repræsentere en værdi, der er en fordobling af den foregående (1, 2, 4, 8 osv.). 
+Den maksimale værdi, som en byte kan repræsentere, er 255, da 0 også tæller som en mulig værdi. 
+Derfor kan en byte repræsentere op til 256 forskellige værdier, hvilket er nok til at kode regnbuens farver.
+
+Paritetsbitten, også kaldet den mindst signifikante bit, bestemmer om tallet er lige eller ulige.
+Hvis en byte er signed, kan den repræsentere både positive og negative værdier, hvor den mest signifikante bit angiver, om tallet er positivt eller negativt.
+Dette betyder, at værdierne kan variere fra -128 til 127.
+
+1.5 Opgave
+For at finde ud af hvilke vinduer kvinden skulle tænde lys i hvis hyrden skulle komme kl. 3, kl. 5 eller kl. 10, kan vi kombinere de tidspunkter der allerede er nævnt:
+1. Kl. 3: Dette tidspunkt kan opnås ved at tænde lys i både det første og det andet vindue (1 + 2 = 3).
+2. Kl. 5: Dette tidspunkt kan opnås ved at tænde lys i både det første og det tredje vindue (1 + 4 = 5).
+3. Kl. 10: Dette tidspunkt kan opnås ved at tænde lys i både det andet og det fjerde vindue (2 + 8 = 10).
